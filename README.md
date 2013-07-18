@@ -22,9 +22,9 @@ $ pip install -r requirements.txt
 ```
 
 ## How to play
-The files we're interested in are the `kata*.py` files and associated `kata*_tests.py` files, e.g. `kata1.py` and `kata1_tests.py`.
+The files we're interested in are the `kata*.py` files and associated `kata*_tests.py` files, e.g. `kata5.py` and `kata5_tests.py`.
 
-`kata1.py` contains some skeleton code to flesh out, e.g. 
+`kata5.py` contains some skeleton code to flesh out and instructions, e.g. 
 
 ``` python
 def foo(the_input):
@@ -35,7 +35,7 @@ def foo(the_input):
 After you finish writing and save the file, run the tests in the associated tests file, e.g. 
 
 ``` bash
-$ python kata1_tests.py 
+$ python kata5_tests.py 
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
