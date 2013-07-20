@@ -1,6 +1,6 @@
 ## About 
 
-Quick programming challenges and tests... *Note -- this does not really conform to the popular idea of coding dojo practices (not explicitly pair programming; kata1 is not really a problem to solve as such... etc.). We're just exploring the concept of solve-stuff-on-projector.*
+Quick programming challenges and tests... *Note -- this does not really conform to the popular idea of coding dojo practices (not explicitly pair programming; kata1 is not really a problem to solve as such... etc.). We're just exploring the concept of solve-stuff-on-projector.... We'll think of a better name later.*
 
 ## Setting up
 (this is draft-ish)
