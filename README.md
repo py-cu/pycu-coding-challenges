@@ -10,7 +10,7 @@ bunch of stuff with other people.
 Clone this repository (or download the .zip)
 
 ``` bash
-$ git@github.com:gnarlinsky/pycu-coding-coding-challenges.git
+$ git@github.com:gnarlinsky/pycu-coding-challenges.git
 ```
 
 Create a virtualenv and install the required packages. 
