@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
-""" 
+"""
 Given a list of integers from 0 through 10 (in order), return
-just the evens, also in a list.  
+just the evens, also in a list.
 
-Do this in three different ways -- fill in each function below. 
+Do this in three different ways -- fill in each function below.
 
-Run the tests with 
-$ python kata1_test.py
+Run the tests with
+$ python challenge0_test.py
 """
 
 def evens_list1(the_list):
