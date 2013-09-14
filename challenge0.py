@@ -19,5 +19,5 @@ def evens_list2(the_list):
     #return [i for i in the_list if i % 2 == 0]
 
 def evens_list3(the_list):
-    """ Method 2: filter + lambda """
+    """ Method 3: filter + lambda """
     #return filter(lambda x: x % 2 == 0, the_list)
