@@ -5,7 +5,7 @@ the idea is something close in spirit (but not implementation) to a coding dojo
 bunch of stuff with other people.
 
 ## Setting up
-(this is draft-ish)
+(This is draft-ish.)
 
 Clone this repository (or download the .zip)
 
@@ -43,3 +43,5 @@ $ python challenge5_tests.py
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 ```
+
+*Note: `challenge0.py` and `challenge0_tests.py` are simple examples to illustrate how this might work. Actual challenges should range in terms of difficulty.*
