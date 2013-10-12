@@ -10,19 +10,34 @@ import unittest
 import distance
 
 __author__ = "Christopher R. Maden <crism@maden.org>"
-__date__ = "11 October 2013"
+__date__ = "12 October 2013"
 
 class SameStringTestCase( unittest.TestCase ):
-    def testStrDist( self ):
-        the_string = "abc"
-        self.assertEqual( distance.str_dist( the_string,
-                                             the_string ),
+    """
+    The distance between identical strings should always be 0.
+    """
+    def setUp( self ):
+        """
+        Define variables shared by the tests in this case.
+        """
+        self.string = "abc"
+
+    def test_str_dist_same_string( self ):
+        """
+        Check that str_dist() correctly finds the distance between
+        identical strings.
+        """
+        self.assertEqual( distance.str_dist( self.string,
+                                             self.string ),
                           0 )
 
-    def testStrDistUneven( self ):
-        the_string = "abc"
-        self.assertEqual( distance.str_dist_uneven( the_string,
-                                                    the_string ),
+    def test_str_dist_uneven_same_string( self ):
+        """
+        Check that str_dist_uneven() correctly finds the distance
+        between identical strings.
+        """
+        self.assertEqual( distance.str_dist_uneven( self.string,
+                                                    self.string ),
                           0 )
 
 if __name__ == '__main__':
